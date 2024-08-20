@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#heroSection .slick-arrow::before{
+    color: #FFA914 !important;
+    font-size: 30px !important;
+    opacity: 1 !important;
+}
+
+#heroSection .slick-prev{
+    left: 10px !important;
+    z-index: 800 !important;
+}
+
+#heroSection .slick-next{
+    right: 15px !important;
+    z-index: 800 !important;
+}
